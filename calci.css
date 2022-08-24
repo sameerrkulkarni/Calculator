@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid;
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 0 30px #000;
+}
+#display{
+    /* border: 1px solid; */
+    height: 80px;
+    width: 330px;    
+    font-size: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow-x: scroll;
+}
+/* table{width: 400px;} */
+button{
+    border-radius: 15px;
+    height: 65px;
+    width: 80px;
+}
+#equal{
+    height: 135px;
+}
+#display::-webkit-scrollbar{
+    display: block;
+    height: 3px;
+}
